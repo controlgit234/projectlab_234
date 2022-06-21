@@ -185,9 +185,11 @@ if WIFI_Connect():
   
   (결과값이 비교하기 쉽게하기 위해 가속도크기 x100를 해주었다.)
   
+  
   ![sub 수신정보](https://github.com/controlgit234/projectlab_234/blob/main/sub%20%EC%97%90%EC%84%9C%20%EB%B0%9B%EC%9D%80%20%EA%B0%80%EC%86%8D%EB%8F%84%EC%A0%95%EB%B3%B4.PNG)
   
   sub에서 받은 가속도 정보 이미지
+  
   
   ![작품실행 이미지](https://github.com/controlgit234/projectlab_234/blob/main/%ED%94%84%EB%9E%A9_%EC%9E%91%ED%92%88%EC%8B%A4%ED%96%89%EC%9D%B4%EB%AF%B8%EC%A7%80.png)
   
