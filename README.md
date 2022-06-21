@@ -211,9 +211,7 @@
   
   sub에서 받은 가속도 정보 이미지
   
-  ![라즈베리파이4 gtts](https://github.com/controlgit234/projectlab_234/blob/main/%EA%B0%80%EC%86%8D%EB%8F%84_gtts_%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C.PNG)
   
-  라즈베리파이4에서 gtts 실행코드
   
 # 작품 실행동영상
 [![작품 실행동영상](https://youtu.be/WObF141nLoM/0.jpg)](https://youtu.be/WObF141nLoM)
