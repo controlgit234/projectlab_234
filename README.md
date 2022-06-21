@@ -23,4 +23,4 @@
   라즈베리파이4에서 gtts 실행코드
   
 # 작품 실행동영상
-[![작품 실행동영상](https://studio.youtube.com/video/WObF141nLoM/edit/0.jpg)](https://studio.youtube.com/video/WObF141nLoM/edit)
+[![작품 실행동영상](https://youtu.be/WObF141nLoM/0.jpg)](https://youtu.be/WObF141nLoM)
