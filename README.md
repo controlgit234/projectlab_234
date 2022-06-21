@@ -7,5 +7,6 @@
   이전의 상태와 비교하여 상태가 변화했다면 gtts를 통해 알려준다
 
 # 작품 블럭도
+  ![작품블럭도](https://github.com/controlgit234/projectlab_234/blob/main/%EC%9E%91%ED%92%88%20%EB%B8%94%EB%9F%AD%EB%8F%84.PNG)
 # 작품 코드
 # 작품 실행동영상
