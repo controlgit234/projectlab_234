@@ -213,7 +213,7 @@
   
   ![작품실행 이미지](https://github.com/controlgit234/projectlab_234/blob/main/%ED%94%84%EB%9E%A9_%EC%9E%91%ED%92%88%EC%8B%A4%ED%96%89%EC%9D%B4%EB%AF%B8%EC%A7%80.png)
   
-  작품실행 
+  작품실행 이미지
   
 # 작품 실행동영상
 [![작품 실행동영상](https://youtu.be/WObF141nLoM/0.jpg)](https://youtu.be/WObF141nLoM)
