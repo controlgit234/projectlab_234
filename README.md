@@ -14,7 +14,7 @@
   ---
   ```python
     import network,time
-    from umqtt.simple import MQTTClient #导入MQTT板块
+    from umqtt.simple import MQTTClient 
     from machine import I2C,Pin,Timer
 
     import time
@@ -27,13 +27,13 @@
     accel_sample10=0
 
     def WIFI_Connect():
-       wlan = network.WLAN(network.STA_IF) #STA模式
-       wlan.active(True)                   #激活接口
-       start_time=time.time()              #记录时间做超时判断
+       wlan = network.WLAN(network.STA_IF) 
+       wlan.active(True)                   
+       start_time=time.time()              
 
         if not wlan.isconnected():
             print('connecting to network...')
-            wlan.connect('wi-fi 이름', 'wi-fi 비밀번호') #输入WIFI账号密码
+            wlan.connect('wi-fi 이름', 'wi-fi 비밀번호') 
         
         if wlan.isconnected():
             print('network information:', wlan.ifconfig())
@@ -52,7 +52,7 @@
             print("10번 샘플링한 가속도값은 ",(accel_sample10/10),"\n")
             client.publish(TOPIC,str(accel_sample10/10))
             accel_sample10=0import network,time
-    from umqtt.simple import MQTTClient #导入MQTT板块
+    from umqtt.simple import MQTTClient 
     from machine import I2C,Pin,Timer
 
     import time
@@ -65,13 +65,13 @@
     accel_sample10=0
 
     def WIFI_Connect():
-        wlan = network.WLAN(network.STA_IF) #STA模式
-        wlan.active(True)                   #激活接口
-        start_time=time.time()              #记录时间做超时判断
+        wlan = network.WLAN(network.STA_IF) 
+        wlan.active(True)                   
+        start_time=time.time()             
 
         if not wlan.isconnected():
             print('connecting to network...')
-            wlan.connect('wi-fi 이름', 'wi-fi 비밀번호') #输入WIFI账号密码
+            wlan.connect('wi-fi 이름', 'wi-fi 비밀번호') 
         
         if wlan.isconnected():
             print('network information:', 
@@ -84,7 +84,7 @@
         client = MQTTClient(CLIENT_ID, SERVER, PORT,keepalive=60)
         client.connect()
 
-        #开启RTOS定时器，编号为-1,周期1000ms，执行socket通信接收任务
+     
         tim = Timer(-1)
         tim.init(period=1000, mode=Timer.PERIODIC,callback=MQTT_Send)
    ```
