@@ -9,9 +9,14 @@
 # 작품 블럭도
   ![작품블럭도](https://github.com/controlgit234/projectlab_234/blob/main/%EC%9E%91%ED%92%88%20%EB%B8%94%EB%9F%AD%EB%8F%84.PNG)
   
-# 작품 코드
+# 작품 코드및 결과이미지
   ![nano 가속도센서](https://github.com/controlgit234/projectlab_234/blob/main/%EA%B0%80%EC%86%8D%EB%8F%84%EC%84%BC%EC%84%9C%20%ED%8F%89%EA%B7%A0%EA%B0%92%20%EA%B2%B0%EA%B3%BC%EC%9D%B4%EB%AF%B8%EC%A7%80.PNG)
   
   Nano RP2040에서 가속도값 샘플링후 평균값 계산후 라즈베리파이4에 전송한 결과 이미지
+  
+  ![sub 수신정보](https://github.com/controlgit234/projectlab_234/blob/main/sub%20%EC%97%90%EC%84%9C%20%EB%B0%9B%EC%9D%80%20%EA%B0%80%EC%86%8D%EB%8F%84%EC%A0%95%EB%B3%B4.PNG)
+  
+  sub에서 받은 가속도 정보 이미지
+  
   
 # 작품 실행동영상
