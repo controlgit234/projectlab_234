@@ -13,8 +13,8 @@
   ## Nano RP2040 가속도 값 코드
   ---
   ```python
-    import network,time
-from umqtt.simple import MQTTClient #导入MQTT板块
+import network,time
+from umqtt.simple import MQTTClient 
 from machine import I2C,Pin,Timer
 
 import time
@@ -27,13 +27,13 @@ step1 = 0
 accel_sample10=0
 
 def WIFI_Connect():
-    wlan = network.WLAN(network.STA_IF) #STA模式
-    wlan.active(True)                   #激活接口
-    start_time=time.time()              #记录时间做超时判断
+    wlan = network.WLAN(network.STA_IF) 
+    wlan.active(True)                   
+    start_time=time.time()              
 
     if not wlan.isconnected():
         print('connecting to network...')
-        wlan.connect('wifi 이름', 'wifi 패스워드') #输入WIFI账号密码
+        wlan.connect('wifi 이름', 'wifi 패스워드') 
         
     if wlan.isconnected():
         print('network information:', wlan.ifconfig())
@@ -61,7 +61,6 @@ if WIFI_Connect():
     client = MQTTClient(CLIENT_ID, SERVER, PORT,keepalive=60)
     client.connect()
 
-    #开启RTOS定时器，编号为-1,周期1000ms，执行socket通信接收任务
     tim = Timer(-1)
     tim.init(period=1000, mode=Timer.PERIODIC,callback=MQTT_Send)
    ```
