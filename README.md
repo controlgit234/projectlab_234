@@ -12,6 +12,7 @@
 # 작품 코드및 결과이미지
   ## Nano RP2040 가속도 값 코드
   ---
+  ```python
     import network,time
     from umqtt.simple import MQTTClient #导入MQTT板块
     from machine import I2C,Pin,Timer
@@ -89,6 +90,7 @@
         
 ## 라즈베리파이4 gtts 코드
 ---
+```python
   import random
   import time
   import paho.mqtt.client as mqtt_client
