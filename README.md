@@ -23,4 +23,4 @@
   라즈베리파이4에서 gtts 실행코드
   
 # 작품 실행동영상
-[실행 동영상](https://github.com/controlgit234/projectlab_234/blob/main/%ED%94%84%EB%9E%A9_%EC%9E%91%ED%92%88%EC%8B%A4%ED%96%89%EB%8F%99%EC%98%81%EC%83%81_%ED%8E%B8%EC%A7%911.mp4)
+[![작품 실행동영상](https://studio.youtube.com/video/WObF141nLoM/edit/0.jpg)](https://studio.youtube.com/video/WObF141nLoM/edit)
