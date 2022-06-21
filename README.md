@@ -87,7 +87,8 @@
         #开启RTOS定时器，编号为-1,周期1000ms，执行socket通信接收任务
         tim = Timer(-1)
         tim.init(period=1000, mode=Timer.PERIODIC,callback=MQTT_Send)
-        
+   ```
+   
 ## 라즈베리파이4 gtts 코드
 ---
 ```python
@@ -198,7 +199,7 @@
 
   if __name__ == '__main__':
       run()
-
+```
 
 ## 결과이미지
 ---
