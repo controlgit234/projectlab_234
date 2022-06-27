@@ -196,4 +196,4 @@ if WIFI_Connect():
   작품실행 이미지
   
 # 작품 실행동영상
-[![작품 실행동영상](https://youtu.be/WObF141nLoM/0.jpg)](https://youtu.be/WObF141nLoM)
+[![작품 실행동영상](https://youtu.be/0Tkd0KrRLO4/0.jpg)](https://youtu.be/0Tkd0KrRLO4)
